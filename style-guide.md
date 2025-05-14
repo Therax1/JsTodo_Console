@@ -31,7 +31,3 @@ The designs were created to the following widths:
 
 "Pacifico"
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
-
-
-
