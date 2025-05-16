@@ -10,7 +10,6 @@
     <div class="root grid">
         <div class="container grid">
 
-
             <section class="sidebar__nav">
                 <div class="sidebar_header">
                     <div class="header toogle-side">
@@ -18,7 +17,7 @@
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M460-320v-320L300-480l160 160ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm440-80h120v-560H640v560Zm-80 0v-560H200v560h360Zm80 0h120-120Z"/></svg>
                     </div>
                     <nav class="navbar">
-                        <a class="add_todo" href="#">
+                        <a class="add_todo active" href="#">
                             <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M680-40v-120H560v-80h120v-120h80v120h120v80H760v120h-80ZM200-200v-560 560Zm0 80q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v353q-18-11-38-18t-42-11v-324H200v560h280q0 21 3 41t10 39H200Zm120-160q17 0 28.5-11.5T360-320q0-17-11.5-28.5T320-360q-17 0-28.5 11.5T280-320q0 17 11.5 28.5T320-280Zm0-160q17 0 28.5-11.5T360-480q0-17-11.5-28.5T320-520q-17 0-28.5 11.5T280-480q0 17 11.5 28.5T320-440Zm0-160q17 0 28.5-11.5T360-640q0-17-11.5-28.5T320-680q-17 0-28.5 11.5T280-640q0 17 11.5 28.5T320-600Zm120 160h240v-80H440v80Zm0-160h240v-80H440v80Zm0 320h54q8-23 20-43t28-37H440v80Z"/></svg>
                             <p class="navlink__text">To-do</p>
                         </a>
@@ -48,103 +47,22 @@
             </section>
 
 
-            <section class="nothing hidden" >
+            <section class="nothing" >
                 <div class="nothin">
                     <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-80q-26 0-47-12.5T400-126q-33 0-56.5-23.5T320-206v-142q-59-39-94.5-103T190-590q0-121 84.5-205.5T480-880q121 0 205.5 84.5T770-590q0 77-35.5 140T640-348v142q0 33-23.5 56.5T560-126q-12 21-33 33.5T480-80Zm-80-126h160v-36H400v36Zm0-76h160v-38H400v38Zm-8-118h58v-108l-88-88 42-42 76 76 76-76 42 42-88 88v108h58q54-26 88-76.5T690-590q0-88-61-149t-149-61q-88 0-149 61t-61 149q0 63 34 113.5t88 76.5Zm88-162Zm0-38Z"/></svg>
                     <p class="nothingtodo">Nothing to do today ?</p>
                 </div>
             </section>
 
-            section.
+            <section class="filteroption hidden">
+                <h3 class="trier par">Trier par: </h3>
+                <button class="filter__notcompleted" type="button">Tâches non terminées</button>
+                <button class="filter__completed" type="button">Tâches terminées</button>
+            </section>
 
-            <section class="display__todo">
+            <section class="display__todo hidden">
                 <ul class="todos">
-                    <li class="todo">
-                        <input type="radio" name="" id="checked__todo">
-                        <p class="todo__content">Manger du pain</p>
-                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
-                    </li>
-                    <li class="todo">
-                        <input type="radio" name="" id="checked__todo">
-                        <p class="todo__content">Manger du pain</p>
-                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
-                    </li>
-                    <li class="todo">
-                        <input type="radio" name="" id="checked__todo">
-                        <p class="todo__content">Manger du pain</p>
-                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
-                    </li>
-                    <li class="todo">
-                        <input type="radio" name="" id="checked__todo">
-                        <p class="todo__content">Manger du pain</p>
-                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
-                    </li>
-                    <li class="todo">
-                        <input type="radio" name="" id="checked__todo">
-                        <p class="todo__content">Manger du pain</p>
-                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
-                    </li>
-                    <li class="todo">
-                        <input type="radio" name="" id="checked__todo">
-                        <p class="todo__content">Manger du pain</p>
-                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
-                    </li>
-                    <li class="todo">
-                        <input type="radio" name="" id="checked__todo">
-                        <p class="todo__content">Manger du pain</p>
-                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
-                    </li>
-                    <li class="todo">
-                        <input type="radio" name="" id="checked__todo">
-                        <p class="todo__content">Manger du pain</p>
-                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
-                    </li>
-                    <li class="todo">
-                        <input type="radio" name="" id="checked__todo">
-                        <p class="todo__content">Manger du pain</p>
-                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
-                    </li>
-                    <li class="todo">
-                        <input type="radio" name="" id="checked__todo">
-                        <p class="todo__content">Manger du pain</p>
-                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
-                    </li>
-                    <li class="todo">
-                        <input type="radio" name="" id="checked__todo">
-                        <p class="todo__content">Manger du pain</p>
-                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
-                    </li>
-                    <li class="todo">
-                        <input type="radio" name="" id="checked__todo">
-                        <p class="todo__content">Manger du pain</p>
-                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
-                    </li>
-                    <li class="todo">
-                        <input type="radio" name="" id="checked__todo">
-                        <p class="todo__content">Manger du pain</p>
-                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
-                    </li>
-                    <li class="todo">
-                        <input type="radio" name="" id="checked__todo">
-                        <p class="todo__content">Manger du pain</p>
-                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
-                    </li>
-                    <li class="todo">
-                        <input type="radio" name="" id="checked__todo">
-                        <p class="todo__content">Manger du pain</p>
-                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
-                    </li>
-                    <li class="todo">
-                        <input type="radio" name="" id="checked__todo">
-                        <p class="todo__content">Manger du pain</p>
-                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
-                    </li>
-                    <li class="todo">
-                        <input type="radio" name="" id="checked__todo">
-                        <p class="todo__content">Manger du pain</p>
-                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
-                    </li>
-                           
+                    
                 </ul>
             </section>
             <section class="profile__view">
@@ -153,5 +71,6 @@
             </section>
         </div>
     </div>
+    <script src="./js/script.js"></script>
 </body>
 </html>

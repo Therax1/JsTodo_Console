@@ -24,7 +24,7 @@
 
     --side-bar-text : #464646;
 
-    --hover-navlinks: #F1F1F1;
+    --active-navlinks: #F1F1F1;
 
     /* Font Family */
     --ff-p: "Poppins", sans-serif;
@@ -66,6 +66,7 @@ img{
 
 .todo__add{
     grid-area: newtodo;
+    max-height: 5rem;
     min-height: 5rem;
 }
 
@@ -79,6 +80,13 @@ img{
 
 .display__todo{
     grid-area: displaytodo;
+}
+
+.filteroption{
+    grid-area: filteroption;
+    background: none !important;
+    gap: 1rem;
+    place-items: center;
 }
 
 /* containers */
@@ -105,12 +113,8 @@ body{
     min-height: 100vh;
     padding: 2rem 1.5rem;
     grid-template-columns: repeat(4, 18rem);
+    grid-template-rows: 5rem 1rem 1fr 1fr;
     gap: 1rem;
-    grid-template-areas: 
-    'sidebar newtodo newtodo profileview'
-    'sidebar displaytodo displaytodo profileview'
-    'sidebar displaytodo displaytodo profileview'
-    'sidebar displaytodo displaytodo profileview';
 }
 
 /* helper */
@@ -146,6 +150,10 @@ body{
     flex-direction: column;
 }
 
+.active{
+    background-color: var(--active-navlinks);
+}
+
 
 /* Side Bar  Designing, Here Down it's all about the side Bar*/
 
@@ -177,10 +185,6 @@ body{
     padding: 0.24rem 0.42rem;
     font-weight: var(--fw-700);
     letter-spacing: -0.03rem;
-}
-
-.navbar>*:hover{
-    background-color: var(--hover-navlinks);
 }
 
 .sidebar__footer{
@@ -392,4 +396,20 @@ form.connexion__form input[type = "password"]{
 input#checked__todo{
     width: 20px;
     height: 20px;
+}
+
+/* Filter Options */
+
+.filteroption > button{
+    padding: 0.3rem 0.6rem;
+    background-color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.filteroption > button{
+    background-color: #fff;
 }
