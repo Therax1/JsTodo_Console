@@ -75,8 +75,8 @@ function doneTasks() {
 
 - [ ] Sauvegarde des tâches en **localStorage**
 - [ ] Animation lors de l’ajout/suppression
-- [ ] Mode sombre / clair
 - [ ] Responsive design (Ouais j'ai pas eu le temps)
+- [ ] Authentification simple (localStorage / pseudo)
 
 ---
 
