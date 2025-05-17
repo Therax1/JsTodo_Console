@@ -154,6 +154,11 @@ body{
     background-color: var(--active-navlinks);
 }
 
+.done {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
 
 /* Side Bar  Designing, Here Down it's all about the side Bar*/
 
