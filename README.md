@@ -15,17 +15,6 @@ Une application **Todo List** simple, interactive et dynamique en **JavaScript p
 
 ---
 
-## 📁 Structure
-
-```
-📦 todo-app/
- ┣ 📜 index.html
- ┣ 📜 style.css
- ┗ 📜 script.js (version 2.0.0)
-```
-
----
-
 ## 🚀 Utilisation
 
 1. **Cloner le projet** :
